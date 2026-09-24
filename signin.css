@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(signinphoto_2023-08-12_02-58-34.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #0c0c0c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #050505;
+}
+
+.divider {
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.google-btn {
+    background-color: #0b0b0b;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.google-btn:hover {
+    background-color: #0e0e0e;
+}
+
+.phone-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+#phoneSignUpForm {
+    text-align: center;
+}
+
+#phoneSignUpForm input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .google-btn,
+    #phoneSignUpForm input[type="tel"] {
+        width: 100%;
+    }
+}

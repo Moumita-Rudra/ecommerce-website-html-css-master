@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('helpphoto_2023-08-12_02-59-21.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* The rest of your CSS code remains unchanged */
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-section,
+.contact-section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .faq-section,
+    .contact-section {
+        display: flex;
+        justify-content: space-between;
+    }
+}

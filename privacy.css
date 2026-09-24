@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 20px;
+    background-image: url(images/privacyHeader-Shopify-Privacy-Policy-1100x370.webp);
+    border-radius: 20px;
+    background-color: #504242;
+    color: #514343;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222020;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #111010;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+  
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #9d7070;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, p, button, img {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: rgb(243, 178, 178);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .product {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #fac1c1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 1.5rem;
+  }
+  
+  .description {
+    margin-bottom: 1rem;
+  }
+  
+  .add-to-cart {
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #c0392b;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  

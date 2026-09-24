@@ -1,0 +1,49 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+#about-us {
+    background-image: url(images/aboutusabstract-blur-and-defocused-shopping-mall-background-free-photo.jpg);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+/* Add additional styles as needed */
+
+/* You can also add media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 70px;
+    }
+
+}
